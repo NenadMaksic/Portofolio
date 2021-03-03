@@ -1,0 +1,733 @@
+@font-face {
+  font-family: mojfont;
+  src: url(font.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: mojfont;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes ulet {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes ulet {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.cleaner {
+  clear: both;
+}
+
+header {
+  background: linear-gradient(45deg, #08beeb, #0a12eb);
+  width: 100%;
+  height: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+header .Logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: auto;
+}
+
+header .Logo p {
+  font-size: 28px;
+  color: black;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+header .meni {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin: auto;
+  position: relative;
+}
+
+header .meni .meni-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header .meni .meni-list li {
+  margin: 10px 30px 30px 10px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding: 0.5%;
+}
+
+header .meni .meni-list li a {
+  color: black;
+  font-size: 30px;
+  margin: 30px;
+}
+
+header .meni .meni-list li a:hover {
+  color: gold;
+}
+
+.shor-info {
+  background-image: url(SBB.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  border-bottom: 2px solid black;
+}
+
+.shor-info .naslov {
+  background-color: rgba(0, 0, 0, 0.81);
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 700;
+  padding: 05px 0px 0px 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-animation: fadein 3s ease;
+          animation: fadein 3s ease;
+}
+
+.shor-info .si-text {
+  background-color: rgba(0, 0, 0, 0.81);
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 5px 0px 0px 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-animation: fadein 3s ease;
+          animation: fadein 3s ease;
+}
+
+.naslov2 {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 550;
+  border-bottom: 2px solid black;
+  background-color: #b3b0b0;
+}
+
+.skills-wraper {
+  background: linear-gradient(60deg, aqua, #1232e2);
+  height: 180vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px solid black;
+}
+
+.skills-wraper .skill {
+  display: block;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 450px;
+  height: 420px;
+  border-radius: 10%;
+  border: 2px solid black;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  position: relative;
+  -webkit-animation: ulet 3s ease;
+          animation: ulet 3s ease;
+}
+
+.skills-wraper .skill img {
+  width: 350px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+
+.skills-wraper .skill:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-radius: 0%;
+}
+
+.skills-wraper p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.projects-wraper {
+  background: linear-gradient(120deg, aqua, #1232e2);
+  height: 170vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px solid black;
+}
+
+.projects-wraper .skill {
+  display: block;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 450px;
+  height: 450px;
+  border-radius: 10%;
+  border: 2px solid black;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  position: relative;
+  -webkit-animation: ulet 3s   ease;
+          animation: ulet 3s   ease;
+}
+
+.projects-wraper .skill img {
+  width: 350px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+
+.projects-wraper .skill:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-radius: 0%;
+}
+
+.projects-wraper p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.about-me {
+  background: linear-gradient(60deg, aqua, #1232e2);
+  height: 160vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-bottom: 2px solid black;
+}
+
+.about-me .ja {
+  width: 40%;
+  height: 70%;
+  margin: auto;
+}
+
+.about-me .ja img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20%;
+}
+
+.about-me p {
+  width: 45%;
+  height: 60%;
+  font-size: 27px;
+  font-weight: 550;
+  color: black;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 70px 30px;
+  border-radius: 20%;
+}
+
+.contact {
+  background: linear-gradient(120deg, aqua, #1232e2);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.contact #forma1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.contact #forma1 .ime {
+  height: 50px;
+  width: 80%;
+  border: 4px dashed black;
+  font-size: 33px;
+  margin: 10px auto;
+  border-radius: 20px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.contact #forma1 #email {
+  height: 50px;
+  width: 80%;
+  border: 4px dashed black;
+  font-size: 33px;
+  margin: 10px auto;
+  border-radius: 20px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.contact #forma1 textarea {
+  height: 100px;
+  width: 80%;
+  border: 4px dashed black;
+  font-size: 33px;
+  margin: 10px auto;
+  border-radius: 20px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.contact #forma1 .dugme {
+  background-color: aquamarine;
+  width: 40%;
+  height: 50px;
+  font-size: 33px;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #b3b0b0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  font-size: 33px;
+  font-weight: 550;
+  color: black;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+footer #FB {
+  font-size: 33px;
+  color: blue;
+  margin: auto;
+}
+
+footer #IN {
+  font-size: 33px;
+  color: purple;
+  margin: auto;
+}
+
+footer #TWT {
+  font-size: 33px;
+  color: #03b8f5;
+  margin: auto;
+}
+
+footer #css {
+  font-size: 33px;
+  color: #f55003;
+  margin: auto;
+}@media (max-width: 500px) {
+  header {
+    width: 100%;
+  }
+  header .Logo {
+    width: 30%;
+    margin: auto;
+  }
+  header .Logo p {
+    width: 90%;
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+  }
+  header nav {
+    width: 60%;
+    margin: auto;
+  }
+  header nav ul {
+    width: 100%;
+    margin: auto;
+  }
+  header nav ul li {
+    text-align: center;
+  }
+  .skills-wraper {
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .skills-wraper .skill {
+    width: 80%;
+    height: 25%;
+    margin: 10px auto;
+  }
+  .skills-wraper .skill img {
+    width: 100%;
+    margin: auto;
+  }
+  .projects-wraper {
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .projects-wraper .skill {
+    width: 80%;
+    height: 25%;
+    margin: 10px auto;
+  }
+  .projects-wraper .skill img {
+    width: 100%;
+    margin: auto;
+  }
+  .about-me {
+    width: 100%;
+    height: 100%;
+  }
+  .about-me p {
+    width: 46%;
+    height: 100%;
+    font-size: 20px;
+  }
+  .about-me .ja {
+    width: 46%;
+    height: 100%;
+  }
+  .about-me .ja img {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+    height: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  header {
+    width: 100%;
+  }
+  header .Logo {
+    width: 30%;
+    margin: auto;
+  }
+  header .Logo p {
+    width: 90%;
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+  }
+  header nav {
+    width: 60%;
+    margin: auto;
+  }
+  header nav ul {
+    width: 100%;
+    margin: auto;
+  }
+  header nav ul li {
+    text-align: center;
+  }
+  .skills-wraper {
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .skills-wraper .skill {
+    width: 80%;
+    height: 25%;
+    margin: 10px auto;
+  }
+  .skills-wraper .skill img {
+    width: 100%;
+    margin: auto;
+  }
+  .projects-wraper {
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .projects-wraper .skill {
+    width: 80%;
+    height: 25%;
+    margin: 10px auto;
+  }
+  .projects-wraper .skill img {
+    width: 100%;
+    margin: auto;
+  }
+  .about-me {
+    width: 100%;
+    height: 100%;
+  }
+  .about-me p {
+    width: 46%;
+    height: 100%;
+    font-size: 20px;
+  }
+  .about-me .ja {
+    width: 46%;
+    height: 100%;
+  }
+  .about-me .ja img {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+    height: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1030px) {
+  header {
+    width: 100%;
+  }
+  header .Logo {
+    width: 30%;
+    margin: auto;
+  }
+  header .Logo p {
+    width: 90%;
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+  }
+  header nav {
+    width: 60%;
+    margin: auto;
+  }
+  header nav ul {
+    width: 100%;
+    margin: auto;
+  }
+  header nav ul li {
+    text-align: center;
+  }
+  .skills-wraper {
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .skills-wraper .skill {
+    width: 80%;
+    height: 25%;
+    margin: 10px auto;
+  }
+  .skills-wraper .skill img {
+    width: 100%;
+    margin: auto;
+  }
+  .projects-wraper {
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .projects-wraper .skill {
+    width: 80%;
+    height: 25%;
+    margin: 10px auto;
+  }
+  .projects-wraper .skill img {
+    width: 100%;
+    margin: auto;
+  }
+  .about-me {
+    width: 100%;
+    height: 100%;
+  }
+  .about-me p {
+    width: 46%;
+    height: 100%;
+    font-size: 20px;
+  }
+  .about-me .ja {
+    width: 46%;
+    height: 100%;
+  }
+  .about-me .ja img {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+    height: 100%;
+  }
+  footer {
+    width: 100%;
+    height: 100%;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}
