@@ -23,26 +23,27 @@
 header {
     background:linear-gradient(45deg,rgb(8, 190, 235),rgb(10,18,235));
     width: 100%;
-    height: 17%;
+    height: 200px;
     display: flex;
     margin: auto;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
+    flex-wrap: wrap;
     
     .Logo{
-        flex:1;
-        margin: auto;
-        p{
-            font-size: 28px;
-            color: black;
-            text-align: center;
-            margin:20px 20px;
+
+        img{
+            width: 200px;
+            height:200px;
+            margin: 0px auto;
+
+           
+            
         }
     }
     .meni{
-        flex: 3;
+        flex: 2;
         margin: auto;
-        position: relative;
         
         .meni-list {
             list-style: none;
@@ -98,7 +99,7 @@ header {
         width: 100%;
         text-align: center;
         color: whitesmoke;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 400;
         padding: 5px 0px 0px 0px;
         flex-wrap: wrap;
@@ -118,7 +119,7 @@ header {
 }
 .skills-wraper {
     background: linear-gradient(60deg,aqua,rgb(18, 50, 226));
-    height: 180vh;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -129,16 +130,16 @@ header {
         display: block;
         margin-top: 50px;
         margin-left: 50px;
-        width: 450px;
-        height: 420px;
+        width: 350px;
+        height: 350px;
         border-radius: 10%;
         border: 2px solid black;
         transition: 1s ease;
         position: relative;
         animation: ulet 3s ease;
         img{
-            width: 350px;
-            height: 300px;
+            width: 250px;
+            height: 200px;
             margin-left: 50px;
             margin-top: 20px;
             border-radius: 10%;
@@ -152,7 +153,7 @@ header {
     p {
         text-align: center;
         color:black;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 550;
         margin-top: 5px;
         width: 100%;
@@ -160,7 +161,7 @@ header {
 }
 .projects-wraper {
     background: linear-gradient(120deg,aqua,rgb(18, 50, 226));
-    height: 170vh;
+    height: 450px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -170,8 +171,8 @@ header {
         display: block;
         margin-top: 50px;
         margin-left: 50px;
-        width: 450px;
-        height: 450px;
+        width: 350px;
+        height: 350px;
         border-radius: 10%;
         border: 2px solid black;
         transition: 1s ease;
@@ -179,8 +180,8 @@ header {
         animation: ulet 3s   ease;
         
         img{
-            width: 350px;
-            height: 300px;
+            width: 250px;
+            height: 200px;
             margin-left: 50px;
             margin-top: 20px;
             border-radius: 10%;
@@ -194,7 +195,7 @@ header {
     p {
         text-align: center;
         color:black;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 550;
         margin-top: 5px;
         width: 100%;
@@ -202,15 +203,15 @@ header {
 }
 .about-me {
     background: linear-gradient(60deg,aqua,rgb(18, 50, 226));
-    height: 160vh;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     align-items: flex-start;
     border-bottom: 2px solid black;
     .ja{
-        width: 40%;
-        height: 70%;
+        width: 20%;
+        height: 90%;
         margin: auto;
         img{
             height: 100%;
@@ -219,12 +220,12 @@ header {
         }
     }
     p {
-        width: 45%;
+        width: 40%;
         height: 60%;
-        font-size: 27px;
+        font-size: 20px;
         font-weight: 550;
         color: black;
-        margin: auto;
+        margin: 10px auto;
         text-align: center;
         border: 2px solid black;
         padding: 70px 30px;
@@ -233,7 +234,7 @@ header {
 }
 .contact {
     background: linear-gradient(120deg,aqua,rgb(18, 50, 226));
-    height: 100vh;
+    height: 400px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -244,33 +245,33 @@ header {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 10px;
         width: 100%;
         .ime {
-            height: 50px;
-            width: 80%;
+            height: 30px;
+            width: 60%;
             border: 4px dashed black;
-            font-size: 33px;
+            font-size: 22px;
             margin: 10px auto;
             border-radius: 20px;
             background-color: aquamarine;
             text-align: center;
         }
         #email {
-            height: 50px;
-            width: 80%;
+            height: 30px;
+            width: 60%;
             border: 4px dashed black;
-            font-size: 33px;
+            font-size: 22px;
             margin:  10px auto;
             border-radius: 20px;
             background-color: aquamarine;
             text-align: center;
         }
         textarea{
-            height: 100px;
-            width: 80%;
+            height: 80px;
+            width: 60%;
             border: 4px dashed black;
-            font-size: 33px;
+            font-size: 22px;
             margin: 10px auto;
             border-radius: 20px;
             background-color: aquamarine;
@@ -278,9 +279,9 @@ header {
         }
         .dugme {
             background-color: aquamarine;
-            width: 40%;
-            height: 50px;
-            font-size: 33px;
+            width: 25%;
+            height: 30px;
+            font-size: 20px;
             text-align: center;
             margin: 10px auto;
             border-radius: 20px;
@@ -290,14 +291,14 @@ header {
 }
 footer{
     background-color: rgb(179, 176, 176) ;
-    height: 100%;
+    height: 80px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     p {
-        font-size: 33px;
+        font-size: 23px;
         font-weight: 550;
         color: black;
         margin: auto;
@@ -305,23 +306,33 @@ footer{
         text-align: center;
     }
     #FB {
-        font-size: 33px;
+        font-size: 23px;
         color: blue;
         margin: auto;
     }
     #IN {
-        font-size: 33px;
+        font-size: 23px;
         color: purple;
         margin: auto; 
     }
     #TWT {
-        font-size: 33px;
+        font-size: 23px;
         color: rgb(3, 184, 245);
         margin: auto; 
     }
     #css{
-        font-size: 33px;
+        font-size: 23px;
         color: rgb(245, 80, 3);
+        margin: auto
+    }
+    #scss{
+        font-size: 23px;
+        color: rgb(11, 248, 31);
+        margin: auto
+    }
+    #top{
+        font-size: 23px;
+        color: rgb(241, 11, 11);
         margin: auto
     }
 

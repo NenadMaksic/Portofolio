@@ -53,35 +53,28 @@
 header {
   background: linear-gradient(45deg, #08beeb, #0a12eb);
   width: 100%;
-  height: 17%;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: auto;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-header .Logo {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  margin: auto;
-}
-
-header .Logo p {
-  font-size: 28px;
-  color: black;
-  text-align: center;
-  margin: 20px 20px;
+header .Logo img {
+  width: 200px;
+  height: 200px;
+  margin: 0px auto;
 }
 
 header .meni {
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
   margin: auto;
-  position: relative;
 }
 
 header .meni .meni-list {
@@ -156,7 +149,7 @@ header .meni .meni-list li a:hover {
   width: 100%;
   text-align: center;
   color: whitesmoke;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   padding: 5px 0px 0px 0px;
   -ms-flex-wrap: wrap;
@@ -177,7 +170,7 @@ header .meni .meni-list li a:hover {
 
 .skills-wraper {
   background: linear-gradient(60deg, aqua, #1232e2);
-  height: 180vh;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,8 +187,8 @@ header .meni .meni-list li a:hover {
   display: block;
   margin-top: 50px;
   margin-left: 50px;
-  width: 450px;
-  height: 420px;
+  width: 350px;
+  height: 350px;
   border-radius: 10%;
   border: 2px solid black;
   -webkit-transition: 1s ease;
@@ -206,8 +199,8 @@ header .meni .meni-list li a:hover {
 }
 
 .skills-wraper .skill img {
-  width: 350px;
-  height: 300px;
+  width: 250px;
+  height: 200px;
   margin-left: 50px;
   margin-top: 20px;
   border-radius: 10%;
@@ -222,7 +215,7 @@ header .meni .meni-list li a:hover {
 .skills-wraper p {
   text-align: center;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 550;
   margin-top: 5px;
   width: 100%;
@@ -230,7 +223,7 @@ header .meni .meni-list li a:hover {
 
 .projects-wraper {
   background: linear-gradient(120deg, aqua, #1232e2);
-  height: 170vh;
+  height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,8 +240,8 @@ header .meni .meni-list li a:hover {
   display: block;
   margin-top: 50px;
   margin-left: 50px;
-  width: 450px;
-  height: 450px;
+  width: 350px;
+  height: 350px;
   border-radius: 10%;
   border: 2px solid black;
   -webkit-transition: 1s ease;
@@ -259,8 +252,8 @@ header .meni .meni-list li a:hover {
 }
 
 .projects-wraper .skill img {
-  width: 350px;
-  height: 300px;
+  width: 250px;
+  height: 200px;
   margin-left: 50px;
   margin-top: 20px;
   border-radius: 10%;
@@ -275,7 +268,7 @@ header .meni .meni-list li a:hover {
 .projects-wraper p {
   text-align: center;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 550;
   margin-top: 5px;
   width: 100%;
@@ -283,7 +276,7 @@ header .meni .meni-list li a:hover {
 
 .about-me {
   background: linear-gradient(60deg, aqua, #1232e2);
-  height: 160vh;
+  height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,8 +290,8 @@ header .meni .meni-list li a:hover {
 }
 
 .about-me .ja {
-  width: 40%;
-  height: 70%;
+  width: 20%;
+  height: 90%;
   margin: auto;
 }
 
@@ -309,12 +302,12 @@ header .meni .meni-list li a:hover {
 }
 
 .about-me p {
-  width: 45%;
+  width: 40%;
   height: 60%;
-  font-size: 27px;
+  font-size: 20px;
   font-weight: 550;
   color: black;
-  margin: auto;
+  margin: 10px auto;
   text-align: center;
   border: 2px solid black;
   padding: 70px 30px;
@@ -323,7 +316,7 @@ header .meni .meni-list li a:hover {
 
 .contact {
   background: linear-gradient(120deg, aqua, #1232e2);
-  height: 100vh;
+  height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,15 +343,15 @@ header .meni .meni-list li a:hover {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 10px;
   width: 100%;
 }
 
 .contact #forma1 .ime {
-  height: 50px;
-  width: 80%;
+  height: 30px;
+  width: 60%;
   border: 4px dashed black;
-  font-size: 33px;
+  font-size: 22px;
   margin: 10px auto;
   border-radius: 20px;
   background-color: aquamarine;
@@ -366,10 +359,10 @@ header .meni .meni-list li a:hover {
 }
 
 .contact #forma1 #email {
-  height: 50px;
-  width: 80%;
+  height: 30px;
+  width: 60%;
   border: 4px dashed black;
-  font-size: 33px;
+  font-size: 22px;
   margin: 10px auto;
   border-radius: 20px;
   background-color: aquamarine;
@@ -377,10 +370,10 @@ header .meni .meni-list li a:hover {
 }
 
 .contact #forma1 textarea {
-  height: 100px;
-  width: 80%;
+  height: 80px;
+  width: 60%;
   border: 4px dashed black;
-  font-size: 33px;
+  font-size: 22px;
   margin: 10px auto;
   border-radius: 20px;
   background-color: aquamarine;
@@ -389,9 +382,9 @@ header .meni .meni-list li a:hover {
 
 .contact #forma1 .dugme {
   background-color: aquamarine;
-  width: 40%;
-  height: 50px;
-  font-size: 33px;
+  width: 25%;
+  height: 30px;
+  font-size: 20px;
   text-align: center;
   margin: 10px auto;
   border-radius: 20px;
@@ -400,7 +393,7 @@ header .meni .meni-list li a:hover {
 
 footer {
   background-color: #b3b0b0;
-  height: 100%;
+  height: 80px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -416,7 +409,7 @@ footer {
 }
 
 footer p {
-  font-size: 33px;
+  font-size: 23px;
   font-weight: 550;
   color: black;
   margin: auto;
@@ -425,309 +418,38 @@ footer p {
 }
 
 footer #FB {
-  font-size: 33px;
+  font-size: 23px;
   color: blue;
   margin: auto;
 }
 
 footer #IN {
-  font-size: 33px;
+  font-size: 23px;
   color: purple;
   margin: auto;
 }
 
 footer #TWT {
-  font-size: 33px;
+  font-size: 23px;
   color: #03b8f5;
   margin: auto;
 }
 
 footer #css {
-  font-size: 33px;
+  font-size: 23px;
   color: #f55003;
   margin: auto;
-}@media (max-width: 500px) {
-  header {
-    width: 100%;
-  }
-  header .Logo {
-    width: 30%;
-    margin: auto;
-  }
-  header .Logo p {
-    width: 90%;
-    font-size: 22px;
-    margin: auto;
-    text-align: center;
-  }
-  header nav {
-    width: 60%;
-    margin: auto;
-  }
-  header nav ul {
-    width: 100%;
-    margin: auto;
-  }
-  header nav ul li {
-    text-align: center;
-  }
-  .skills-wraper {
-    width: 100%;
-    height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
-  }
-  .skills-wraper .skill {
-    width: 80%;
-    height: 25%;
-    margin: 10px auto;
-  }
-  .skills-wraper .skill img {
-    width: 100%;
-    margin: auto;
-  }
-  .projects-wraper {
-    width: 100%;
-    height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
-  }
-  .projects-wraper .skill {
-    width: 80%;
-    height: 25%;
-    margin: 10px auto;
-  }
-  .projects-wraper .skill img {
-    width: 100%;
-    margin: auto;
-  }
-  .about-me {
-    width: 100%;
-    height: 100%;
-  }
-  .about-me p {
-    width: 46%;
-    height: 100%;
-    font-size: 20px;
-  }
-  .about-me .ja {
-    width: 46%;
-    height: 100%;
-  }
-  .about-me .ja img {
-    width: 100%;
-  }
-  .contact {
-    width: 100%;
-    height: 100%;
-  }
-  footer {
-    width: 100%;
-  }
-  footer p {
-    font-size: 18px;
-  }
 }
 
-@media (max-width: 800px) {
-  header {
-    width: 100%;
-  }
-  header .Logo {
-    width: 30%;
-    margin: auto;
-  }
-  header .Logo p {
-    width: 90%;
-    font-size: 22px;
-    margin: auto;
-    text-align: center;
-  }
-  header nav {
-    width: 60%;
-    margin: auto;
-  }
-  header nav ul {
-    width: 100%;
-    margin: auto;
-  }
-  header nav ul li {
-    text-align: center;
-  }
-  .skills-wraper {
-    width: 100%;
-    height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
-  }
-  .skills-wraper .skill {
-    width: 80%;
-    height: 25%;
-    margin: 10px auto;
-  }
-  .skills-wraper .skill img {
-    width: 100%;
-    margin: auto;
-  }
-  .projects-wraper {
-    width: 100%;
-    height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
-  }
-  .projects-wraper .skill {
-    width: 80%;
-    height: 25%;
-    margin: 10px auto;
-  }
-  .projects-wraper .skill img {
-    width: 100%;
-    margin: auto;
-  }
-  .about-me {
-    width: 100%;
-    height: 100%;
-  }
-  .about-me p {
-    width: 46%;
-    height: 100%;
-    font-size: 20px;
-  }
-  .about-me .ja {
-    width: 46%;
-    height: 100%;
-  }
-  .about-me .ja img {
-    width: 100%;
-  }
-  .contact {
-    width: 100%;
-    height: 100%;
-  }
-  footer {
-    width: 100%;
-  }
-  footer p {
-    font-size: 18px;
-  }
+footer #scss {
+  font-size: 23px;
+  color: #0bf81f;
+  margin: auto;
 }
 
-@media (max-width: 1030px) {
-  header {
-    width: 100%;
-  }
-  header .Logo {
-    width: 30%;
-    margin: auto;
-  }
-  header .Logo p {
-    width: 90%;
-    font-size: 22px;
-    margin: auto;
-    text-align: center;
-  }
-  header nav {
-    width: 60%;
-    margin: auto;
-  }
-  header nav ul {
-    width: 100%;
-    margin: auto;
-  }
-  header nav ul li {
-    text-align: center;
-  }
-  .skills-wraper {
-    width: 100%;
-    height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
-  }
-  .skills-wraper .skill {
-    width: 80%;
-    height: 25%;
-    margin: 10px auto;
-  }
-  .skills-wraper .skill img {
-    width: 100%;
-    margin: auto;
-  }
-  .projects-wraper {
-    width: 100%;
-    height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
-  }
-  .projects-wraper .skill {
-    width: 80%;
-    height: 25%;
-    margin: 10px auto;
-  }
-  .projects-wraper .skill img {
-    width: 100%;
-    margin: auto;
-  }
-  .about-me {
-    width: 100%;
-    height: 100%;
-  }
-  .about-me p {
-    width: 46%;
-    height: 100%;
-    font-size: 20px;
-  }
-  .about-me .ja {
-    width: 46%;
-    height: 100%;
-  }
-  .about-me .ja img {
-    width: 100%;
-  }
-  .contact {
-    width: 100%;
-    height: 100%;
-  }
-  footer {
-    width: 100%;
-    height: 100%;
-  }
-  footer p {
-    font-size: 18px;
-  }
+footer #top {
+  font-size: 23px;
+  color: #f10b0b;
+  margin: auto;
 }
+/*# sourceMappingURL=style.css.map */
